@@ -21,12 +21,14 @@ with TensorFlow.
 
 If you prepare your own dataset, please follow the following form:
 |--train_data  
+
     |--rainysamples  
         |--file1
                 ：  
         |--file2
             :
         |--filen
+        
     |--cleansamples
         |--file1
                 ：  
@@ -74,7 +76,7 @@ python test_MSPFN.py
 The deraining results will be in './test/test_data/MSPFN'.
 
 # Citation
-
+```
 @InProceedings{Pan_2020_CVPR,
 	author = {Jiang, Kui and Wang, Zhongyuan and Yi, Peng and Huang, Baojin and Luo, Yimin and Ma, Jiayi and Jiang, Junjun},
 	title = {Multi-Scale Progressive Fusion Network for Single Image Deraining},
@@ -82,3 +84,4 @@ The deraining results will be in './test/test_data/MSPFN'.
 	month = {June},
 	year = {2020}
 }
+```
