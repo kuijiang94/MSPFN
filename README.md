@@ -13,6 +13,15 @@ with TensorFlow.
 - glob
 - sys
 
+# Motivation
+
+The repetitive samples of rain streaks in a rain image as well as its multi-scale versions 
+(multi-scale pyramid images) may carry complementary information (e.g., similar appearance) 
+to characterize target rain streaks. We explore the multi-scale representation 
+from input image scales and deep neural network representations in a unified framework, 
+and propose a multi-scale progressive fusion network (MSPFN) 
+to exploit the correlated information of rain streaks across scales for single image deraining.
+
 # Usage
 
 ## I. Train the MSPFN model
