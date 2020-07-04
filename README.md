@@ -50,7 +50,7 @@ $ python preprocessing.py
 ```
 
 ### Training
-Download training dataset, or prepare your own dataset like above form.
+Download training dataset ([Baidu Cloud](https://pan.baidu.com/s/18nurfhNbFt--Xzs5sAVvlA)), or prepare your own dataset like above form.
 
 Run the following commands:
 ```
