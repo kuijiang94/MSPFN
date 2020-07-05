@@ -9,7 +9,8 @@ import matplotlib.pyplot as plt
 import sys
 sys.path.append('../')
 sys.path.append('../../utils')
-from TEST_MSRN import Model
+#from TEST_MSPFN import Model
+from TEST_MSPFN_M17N1 import Model
 os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 is_training = tf.placeholder(tf.bool, [])
