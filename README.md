@@ -60,7 +60,7 @@ python train_MSPFN.py
 
 ## II. Test the MSPFN model 
 
-#### Quick Test
+#### Quick Test With the Raw Model (TEST_MSPFN_M17N1.PY)
 Download the pretrained models ([Baidu Cloud](https://pan.baidu.com/s/1gq16HTvJCHEXXc0V3t7lqw)).
 
 Download the testing dataset (R100H, R100L, TEST100, TEST1200, TEST2800).
@@ -72,7 +72,7 @@ python test_MSPFN.py
 ```
 The deraining results will be in './test/test_data/MSPFN'.
 
-####  Test Your Own Dataset
+####  Test the Retraining Model With Your Own Dataset (TEST_MSPFN.PY)
 Download the pretrained models.
 
 Put your dataset in './test/test_data/'.
@@ -83,6 +83,8 @@ cd ./model/test
 python test_MSPFN.py
 ```
 The deraining results will be in './test/test_data/MSPFN'.
+
+
 
 # Citation
 ```
