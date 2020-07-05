@@ -5,13 +5,13 @@ sys.path.append('../utils')
 from layer import *
 from BasicConvLSTMCell import *
 
-class MODEL:
+class Model:
     def __init__(self, x_rain, is_training, batch_size):
         self.batch_size = batch_size
         n,w,h,c = x_rain.get_shape().as_list()
         self.weight = w//4
         self.height = h//4
-        self.rain_res = self.generator(x_rain, is_training, False)
+        self.rain_res = self.generator(x_rain, is_training, tf.AUTO_REUSE)
         self.imitation = x_rain -  self.rain_res
     
     def generator(self, rain, is_training, reuse):
@@ -29,7 +29,6 @@ class MODEL:
                     
             self.down_2 = self.downscale2(rain)
             self.down_4 = self.downscale4(rain)
-            #input = tf.concat([self.bic_2, self.bic_4, rain],3)
                     
             with tf.variable_scope('rnn1'):
                 rain1 = deconv_layer(
