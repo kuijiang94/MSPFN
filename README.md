@@ -7,7 +7,7 @@ with TensorFlow.
 # Requirements
 
 - Python 3
-- TensorFlow 1.1
+- TensorFlow 1.12.0
 - OpenCV
 - tqdm
 - glob
