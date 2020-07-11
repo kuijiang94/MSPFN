@@ -50,7 +50,7 @@ $ python preprocessing.py
 ```
 
 ### Training
-Download training dataset ((raw images)[Baidu Cloud](https://pan.baidu.com/s/1pUauDe5Yr9hyK7dw_zU43Q), (.npy)[Baidu Cloud](https://pan.baidu.com/s/18nurfhNbFt--Xzs5sAVvlA)), or prepare your own dataset like above form.
+Download training dataset ((raw images)[Baidu Cloud](https://pan.baidu.com/s/1usedYAf3gYOgAJJUDlrwWg), (**Password:4qnh**) (.npy)[Baidu Cloud](https://pan.baidu.com/s/1hOmO-xrZ2I6sI4lXiqhStA), (**Password:gd2s**)), or prepare your own dataset like above form.
 
 Run the following commands:
 ```
@@ -61,7 +61,7 @@ python train_MSPFN.py
 ## II. Test the MSPFN model 
 
 #### Quick Test With the Raw Model (TEST_MSPFN_M17N1.PY)
-Download the pretrained models ([Baidu Cloud](https://pan.baidu.com/s/1gq16HTvJCHEXXc0V3t7lqw)).
+Download the pretrained models ([Baidu Cloud](https://pan.baidu.com/s/1vfYbkbygiR4fC1I6eNcpmQ), (**Password:u5v6**)).
 
 Download the testing dataset (R100H, R100L, TEST100, TEST1200, TEST2800).
 
