@@ -70,7 +70,8 @@ Run the following commands:
 cd ./model/test
 python test_MSPFN.py
 ```
-The deraining results will be in './test/test_data/MSPFN'.
+The deraining results will be in './test/test_data/MSPFN'. We only provide the baseline for comparision. 
+There exits the gap (0.1-0.2db) between the provided model and the reported values in the paper, which originates in the subsequent fine tuning of hyperparameters, training process and constrains.
 
 ####  Test the Retraining Model With Your Own Dataset (TEST_MSPFN.PY)
 Download the pretrained models.
