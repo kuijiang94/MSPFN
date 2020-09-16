@@ -11,13 +11,13 @@ class MODEL:
         n,w,h,c = x_rain.get_shape().as_list()
         self.weight = w//4
         self.height = h//4
-        self.rain_res = self.generator(x_rain, is_training, False)
+        self.rain_res = self.model(x_rain, is_training, False)
         self.imitation = x_rain -  self.rain_res
         #print(self.imitation.shape)
         self.train_loss, self.edge_loss = self.inference_losses(x, self.imitation)
     
-    def generator(self, rain, is_training, reuse):
-        with tf.variable_scope('generator', reuse=reuse):
+    def model(self, rain, is_training, reuse):
+        with tf.variable_scope('model', reuse=reuse):
             # RNN框架
             with tf.variable_scope('LSTM'):
                 cell = BasicConvLSTMCell([self.weight*4, self.height*4], [3, 3], 256)
@@ -200,8 +200,8 @@ class MODEL:
             with tf.variable_scope('rnn7'):
                 res_rainimage = deconv_layer(
                     res_mem_con, [3, 3, 3, 32], [self.batch_size, self.weight*4, self.height*4, 3], 1)#2
-        self.g_variables = tf.get_collection(
-            tf.GraphKeys.TRAINABLE_VARIABLES, scope='generator')
+        self.variables = tf.get_collection(
+            tf.GraphKeys.TRAINABLE_VARIABLES, scope='model')
         return res_rainimage
 		
 		
