@@ -63,7 +63,7 @@ python train_MSPFN.py
 #### Quick Test With the Raw Model (TEST_MSPFN_M17N1.PY)
 Download the pretrained models ([Baidu Cloud](https://pan.baidu.com/s/1vfYbkbygiR4fC1I6eNcpmQ), (**Password:u5v6**)) ([Google Drive](https://drive.google.com/file/d/1nrjZtNs6AJYvfHi9TeCVTs50E57Fxgsc/view?usp=sharing)).
 
-Download the testing dataset (R100H, R100L, TEST100, TEST1200, TEST2800) ([Google Drive](https://drive.google.com/file/d/1H6kigSTD0mucIoXOhpXZn3UqYytpS4TX/view?usp=sharing)) and the test samples as well as the labels of joint tasks form (BDD350, COCO350, BDD150)([Baidu Cloud](https://pan.baidu.com/s/1xA4kgSyi9vZxVAeGRvc1tw), (**Password:0e7o**)).
+Download the commonly used testing rain dataset (R100H, R100L, TEST100, TEST1200, TEST2800) ([Google Drive](https://drive.google.com/file/d/1H6kigSTD0mucIoXOhpXZn3UqYytpS4TX/view?usp=sharing)), and the test samples and the labels of joint tasks form (BDD350, COCO350, BDD150) ([Baidu Cloud](https://pan.baidu.com/s/1xA4kgSyi9vZxVAeGRvc1tw), (**Password:0e7o**)).
 
 Run the following commands:
 ```
