@@ -38,7 +38,7 @@ If you prepare your own dataset, please follow the following form:
             :
         |--filen
         
-    |--cleansamples
+    |--clean samples
         |--file1
                 ：  
         |--file2
@@ -63,18 +63,19 @@ python train_MSPFN.py
 #### Quick Test With the Raw Model (TEST_MSPFN_M17N1.PY)
 Download the pretrained models ([Baidu Cloud](https://pan.baidu.com/s/1vfYbkbygiR4fC1I6eNcpmQ), (**Password:u5v6**)) ([Google Drive](https://drive.google.com/file/d/1nrjZtNs6AJYvfHi9TeCVTs50E57Fxgsc/view?usp=sharing)).
 
-Download the commonly used testing rain dataset (R100H, R100L, TEST100, TEST1200, TEST2800) ([Google Drive](https://drive.google.com/file/d/1H6kigSTD0mucIoXOhpXZn3UqYytpS4TX/view?usp=sharing)), and the test samples and the labels of joint tasks form (BDD350, COCO350, BDD150) ([Baidu Cloud](https://pan.baidu.com/s/1xA4kgSyi9vZxVAeGRvc1tw), (**Password:0e7o**)).
+Download the commonly used testing rain dataset (R100H, R100L, TEST100, TEST1200, TEST2800) ([Google Drive](https://drive.google.com/file/d/1H6kigSTD0mucIoXOhpXZn3UqYytpS4TX/view?usp=sharing)), and the test samples and the labels of joint tasks form (BDD350, COCO350, BDD150) ([Baidu Cloud](https://pan.baidu.com/s/1xA4kgSyi9vZxVAeGRvc1tw), (**Password:0e7o**)). 
+In addition, the test results of other competing models can be downloaded from [here](https://drive.google.com/file/d/11nKUDRWJuapT8rogr6FARCMJF3rJoJtE/view?usp=sharing)(https://drive.google.com/file/d/1An5OChbJZnkhlbwGIDQ7wDh-xpkbELp9/view?usp=sharing).
 
 Run the following commands:
 ```
 cd ./model/test
 python test_MSPFN.py
 ```
-The deraining results will be in './test/test_data/MSPFN'. We only provide the baseline for comparision. 
-There exits the gap (0.1-0.2db) between the provided model and the reported values in the paper, which originates in the subsequent fine tuning of hyperparameters, training process and constrains.
+The deraining results will be in './test/test_data/MSPFN'. We only provide the baseline for comparison. 
+There exists the gap (0.1-0.2db) between the provided model and the reported values in the paper, which originates in the subsequent fine-tuning of hyperparameters, training processes and constraints.
 
 ####  Test the Retraining Model With Your Own Dataset (TEST_MSPFN.PY)
-Download the pretrained models.
+Download the pre-trained models.
 
 Put your dataset in './test/test_data/'.
 
