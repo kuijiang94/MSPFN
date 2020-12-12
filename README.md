@@ -91,7 +91,7 @@ The deraining results will be in './test/test_data/MSPFN'.
 # Citation
 ```
 @InProceedings{Kui_2020_CVPR,
-	author = {Jiang, Kui and Wang, Zhongyuan and Yi, Peng and Huang, Baojin and Luo, Yimin and Ma, Jiayi and Jiang, Junjun},
+	author = {Jiang, Kui and Wang, Zhongyuan and Yi, Peng and Chen, Chen and Huang, Baojin and Luo, Yimin and Ma, Jiayi and Jiang, Junjun},
 	title = {Multi-Scale Progressive Fusion Network for Single Image Deraining},
 	booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
 	month = {June},
