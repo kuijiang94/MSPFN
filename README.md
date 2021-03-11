@@ -97,4 +97,13 @@ The deraining results will be in './test/test_data/MSPFN'.
 	month = {June},
 	year = {2020}
 }
+@ARTICLE{9294056,
+  author={K. {Jiang} and Z. {Wang} and P. {Yi} and C. {Chen} and Z. {Han} and T. {Lu} and B. {Huang} and J. {Jiang}},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
+  title={Decomposition Makes Better Rain Removal: An Improved Attention-guided Deraining Network}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TCSVT.2020.3044887}}
 ```
